@@ -19,7 +19,7 @@ The following files can be found in the `Method 2` folder -
 8. `Image Captioning Training.ipynb` -  Notebook to be run for training
 9. `Testing.ipynb` -  Notebook to be run for testing
 
-###Dataset
+### Dataset
 
 The dataset used is the MSCOCO '14 Dataset. After downloading the Training and Valdiation datasets, we create a hdf5 file using [Andrej Karpathy's data splits](http://cs.stanford.edu/people/karpathy/deepimagesent/caption_datasets.zip "Andrej Karpathy's data splits"). This is done by running `create_input_files.py` after pointing it to the Karpathy's COCO JSON file and the image folder containing the extracted train2014 and val2014 folders from the downloaded data.
 
