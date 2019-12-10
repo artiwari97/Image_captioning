@@ -53,9 +53,8 @@ Alternatively, training can be perfomed using the `Image Captioning Training.ipy
 
 ## References
 
-The structure and content of our code has been influenced by the following sources:
+The structure and content of our code has been influenced by the following sources - 
 
-
-	1. [A PyTorch Tutorial to Image Captioning](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning)
-	2. [PyTorch Tutorials - Image Captioning](https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/03-advanced/image_captioning)
+1. [A PyTorch Tutorial to Image Captioning](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning)	
+2. [PyTorch Tutorials - Image Captioning](https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/03-advanced/image_captioning)
 	
