@@ -28,6 +28,7 @@ To start training the model, run `python train.py`. Make sure the data is pointe
 
 ### Inference  
 Before running inference, our trained model can be downloaded from this link https://drive.google.com/open?id=1MqRkkp2YNp2TLwbfvC-EzK4JFM4vZydf
+Keep this model in the folder that is the parent of `Method 2/`
 
 To run inference on an image, run -
 `python caption.py --img='path/to/image.jpeg' --model='path/to/BEST_checkpoint_coco_5_cap_per_img_5_min_word_freq.pth.tar' --word_map='path/to/WORDMAP_coco_5_cap_per_img_5_min_word_freq.json' --beam_size=5`
