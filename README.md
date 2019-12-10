@@ -50,3 +50,12 @@ To run inference on an image, run -
 
 ### Using the jupyter notebooks
 Alternatively, training can be perfomed using the `Image Captioning Training.ipynb` notebook inside `Method 2` folder. For inference, use `Testing.ipynb` in the same folder. There are already 3 sample images on which the model has been run in the notebook.
+
+## References
+
+The structure and content of our code has been influenced by the following sources:
+
+
+	1. [A PyTorch Tutorial to Image Captioning](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning)
+	2. [PyTorch Tutorials - Image Captioning](https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/03-advanced/image_captioning)
+	
