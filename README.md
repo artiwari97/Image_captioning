@@ -1,8 +1,23 @@
-Image Captioning
-testing
+# Image Captioning - ECE 285 Machine Learning for Image Processing
 
+## Description
 
-## Method 2 - Show Attend and Tell
+This git repo contains notebooks and code for the final project of ECE 285 @ UC San Diego, Fall 2019 on Image Captioning.
+
+Team Members:
+
+		- Aniket Tiwari, A53318400 
+		- Ranganathan Ramkumar, A53299500
+		- Kaustav Datta, A53315687
+		- Suhrid Subramaniam, A53321749
+
+## Requirements
+Our code is written in Python and we use the following packages/libraries: PyTorch 0.4, scikit, argparse
+
+## Code Organization:
+We have two folders in our repo: Method 1 and Method 2. Method 1 contains implementation of Show and Tell whereas Method 2 contains implementation for Show, Attend and Tell. Our experiments showed that Show, Attend and Tell gave us better results. Therefore, code organization of Show, Attend and Tell is described below.
+
+### Method 2 - Show Attend and Tell
 
 The following files can be found in the `Method 2` folder -
 1. `create_input_files.py` - This is used to create the following:
@@ -35,5 +50,3 @@ To run inference on an image, run -
 
 ### Using the jupyter notebooks
 Alternatively, training can be perfomed using the `Image Captioning Training.ipynb` notebook inside `Method 2` folder. For inference, use `Testing.ipynb` in the same folder. There are already 3 sample images on which the model has been run in the notebook.
-
-
