@@ -26,7 +26,7 @@ The dataset used is the MSCOCO '14 Dataset. After downloading the Training and V
 ### Training
 To start training the model, run `python train.py`. Make sure the data is pointed correctly.
 
-###Inference  
+### Inference  
 Before running inference, our trained model can be downloaded from this link https://drive.google.com/open?id=1MqRkkp2YNp2TLwbfvC-EzK4JFM4vZydf
 
 To run inference on an image, run -
